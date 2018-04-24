@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.callanna.btdemo.MainActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="110dp"
+        app:layout_constraintHorizontal_bias="1.0">
+        <TextView
+            android:padding="20dp"
+            android:text="蓝牙开关"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_bluetooth"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+    </LinearLayout>
+     <Button
+         android:id="@+id/btn_server"
+         android:text="服务端"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         tools:layout_editor_absoluteY="170dp"
+         tools:layout_editor_absoluteX="137dp" />
+    <Button
+        android:id="@+id/btn_client"
+        android:text="客户端"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="268dp"
+        tools:layout_editor_absoluteX="137dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CleanMemory</string>
+    <string name="scaning" type="id">Scanning</string>
+    <string name="clicktoclean" type="id">Click clean up</string>
+    <string name="lastcache" type="id">The storage space available</string>
+    <string name="cleaning" type="id">Cleaning</string>
+    <string name="cleaned">Clean up the complete</string>
+    <string name="cleanchcahe">Clear the rubbish</string>
+    <string name="lastmemory">Memory has been used</string>
+    <string name="cleanmemory">Clear up memory</string>
+    <string name="canclean">can clean</string>
+</resources>

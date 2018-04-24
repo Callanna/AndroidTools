@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bluelibrary</string>
+    <string name="enable_ok">打开成功</string>
+    <string name="enable_cancel">打开失败</string>
+    <string name="set_ok">设置成功</string>
+    <string name="set_failed">设置失败</string>
+</resources>

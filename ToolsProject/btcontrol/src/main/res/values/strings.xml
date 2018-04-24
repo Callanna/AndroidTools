@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">btcontrol</string>
+    <string name="mustkown_one">第一步  蓝牙连接设备 \n  打开手机蓝牙，扫描蓝牙设备，选择蓝牙设备连接。</string>
+    <string name="mustkown_two">第二步  用户绑定设备 \n   输入用户手机号，验证成功后，提交设备信息，绑定用户的设备</string>
+    <string name="mustkown_three">第三步  设备解锁 \n  一键解锁，解锁成功后油烟机才可以有效工作 </string>
+    <string name="code">获取验证码</string>
+</resources>

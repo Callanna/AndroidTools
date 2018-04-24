@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/id_rl1_bg"
+    >
+
+    <!--<TextView-->
+        <!--android:id="@+id/id_tv_wifi_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="WLAN"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="20sp"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/id_tv_wifi_divide_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_below="@id/id_tv_wifi_title"-->
+        <!--android:background="#4d4d4d"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/wifi_adapter_item_header_layout"
+            />
+        <ListView
+            android:id="@+id/id_lv_wifi_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:divider="#55aaaaaa"
+            android:dividerHeight="1px"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            />
+        <include layout="@layout/wifi_adapter_footer_layout1"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/id_tv_wifi_toggle_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="WIFI已关闭，请打开wifi"
+        android:textColor="#4d4d4d"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

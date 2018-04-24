@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/transparent" ></View>
+
+    <View
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/transparent" ></View>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:padding="10dp">
+        <View
+            android:id="@+id/left"
+            android:background="@color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></View>
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+           <com.ebanswers.cleantool.view.DynamicCircleProgressBar
+               android:layout_centerHorizontal="true"
+               android:id="@+id/progress_clean"
+               android:layout_width="200dp"
+               android:layout_height="200dp">
+
+           </com.ebanswers.cleantool.view.DynamicCircleProgressBar>
+             <Button
+                 android:id="@+id/btn_clean"
+                 android:text="@string/clicktoclean"
+                 android:textSize="14sp"
+                 android:layout_centerHorizontal="true"
+                 android:textColor="@color/black"
+                 android:layout_alignBottom="@+id/progress_clean"
+                 android:background="@drawable/icbutton_clean_bg"
+                 android:layout_width="80dp"
+                 android:layout_height="40dp" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/memory_tip"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="内存已用260M/490M"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/progress_clean"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <View
+            android:id="@+id/right"
+            android:background="@color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></View>
+    </LinearLayout>
+</LinearLayout>

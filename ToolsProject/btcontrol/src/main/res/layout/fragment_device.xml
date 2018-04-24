@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_margin="20dp"
+        android:hint="请输入手机号"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <LinearLayout
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <EditText
+           android:id="@+id/edit_code"
+           android:hint="请输入验证码"
+           android:paddingLeft="10dp"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:layout_weight="3"
+           android:textColorHint="@color/white"
+           android:background="@drawable/edittext_bg"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btn_getcode"
+           android:text="@string/code"
+           android:layout_marginLeft="10dp"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:background="@drawable/btn_bg2"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_time"
+            android:text="60s"
+            android:textSize="22sp"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="未收到，重新获得验证码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_deviceid"
+        android:layout_margin="20dp"
+        android:hint="请输入设备编号"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_devicenext"
+        android:gravity="center"
+        android:text="绑定"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

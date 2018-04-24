@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#f0f0f0"
+                android:id="@+id/id_rl_title_top_bg"
+
+    >
+
+    <TextView
+        android:id="@+id/id_tv_wifi_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:text="WLAN"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <CheckBox
+        android:id="@+id/id_cb_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_set_off"
+        android:button="@null"
+        />
+
+</RelativeLayout>

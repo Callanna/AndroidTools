@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.callanna.fragment.ListFragment">
+    <TextView
+        android:text="已连接台数"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_counts"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_connect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
