@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    tools:context="com.example.callanna.boottool.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_root"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <RadioButton
+           android:id="@+id/rb_local"
+           android:text="本地根目录"
+           android:checked="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_sd"
+            android:text="SD卡目录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/et_otapath"
+        android:hint="输入文件地址:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_boot"
+        android:text="更新固件"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="输入apk文件名："
+        android:id="@+id/et_sysapkpath"
+        android:text="Runner.apk"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_uninstall"
+        android:text="删除系统应用"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="输入apk包名："
+        android:id="@+id/et_apk"
+        android:text="com.treadmill.runner"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_uninstallapk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="卸载应用"/>
+
+
+</LinearLayout>

@@ -1,1 +1,1 @@
-include ':app', ':blueutillibrary', ':btcontrol', ':btdemo', ':wifilibrary', ':wifidemo', ':cleandemo', ':cleantool', ':logcat', ':frame'
+include ':app', ':blueutillibrary', ':btcontrol', ':btdemo', ':wifilibrary', ':wifidemo', ':cleandemo', ':cleantool', ':logcat', ':frame', ':unstallapp'

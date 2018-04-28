@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/cleantool/cleantool.iml" filepath="$PROJECT_DIR$/cleantool/cleantool.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame/frame.iml" filepath="$PROJECT_DIR$/frame/frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/logcat/logcat.iml" filepath="$PROJECT_DIR$/logcat/logcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unstallapp/unstallapp.iml" filepath="$PROJECT_DIR$/unstallapp/unstallapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifidemo/wifidemo.iml" filepath="$PROJECT_DIR$/wifidemo/wifidemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifilibrary/wifilibrary.iml" filepath="$PROJECT_DIR$/wifilibrary/wifilibrary.iml" />
     </modules>
