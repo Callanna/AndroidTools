@@ -7,7 +7,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.wifi.ScanResult;
-import android.support.annotation.IdRes;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextUtils;
@@ -22,6 +21,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import androidx.annotation.IdRes;
 
 import com.ebanswers.wifilibrary.R;
 import com.ebanswers.wifilibrary.WifiAdmin;

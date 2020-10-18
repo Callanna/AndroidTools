@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app2" />
             <option value="$PROJECT_DIR$/blueutillibrary" />
             <option value="$PROJECT_DIR$/btcontrol" />
             <option value="$PROJECT_DIR$/btdemo" />

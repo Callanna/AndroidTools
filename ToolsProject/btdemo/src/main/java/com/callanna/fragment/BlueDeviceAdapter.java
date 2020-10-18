@@ -1,9 +1,10 @@
 package com.callanna.fragment;
 
 import android.bluetooth.BluetoothDevice;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
 
 import com.callanna.btdemo.R;
 import com.chad.library.adapter.base.BaseQuickAdapter;

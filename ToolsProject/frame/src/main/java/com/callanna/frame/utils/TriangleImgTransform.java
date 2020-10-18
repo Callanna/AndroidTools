@@ -10,16 +10,16 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.util.Log;
 
-import com.ebanswers.netkitchen.CoreApplication;
-import com.ebanswers.netkitchen.R;
-import com.squareup.picasso.Transformation;
+//import com.ebanswers.netkitchen.CoreApplication;
+//import com.ebanswers.netkitchen.R;
+//import com.squareup.picasso.Transformation;
 
 /**
  * 生成微信带三角的图片
  * <p>
  * Created by liudong on 2016/10/21.
  */
-public class TriangleImgTransform implements Transformation {
+public class TriangleImgTransform { //implements Transformation {
 
     public Bitmap getRoundCornerImage(Bitmap bitmap_bg, Bitmap bitmap_in) {
         Bitmap roundConcerImage = Bitmap.createBitmap(bitmap_in.getWidth(), bitmap_in.getHeight(), Bitmap.Config.ARGB_8888);
@@ -48,18 +48,18 @@ public class TriangleImgTransform implements Transformation {
         return roundConcerImage;
     }
 
-    @Override
-    public Bitmap transform(Bitmap source) {
-        Bitmap bitmap_bg = BitmapFactory.decodeResource(CoreApplication.getInstance().getResources(), R.drawable.bg_dialog_a);
-        final Bitmap bp = getRoundCornerImage(bitmap_bg, source);
-        Log.d("TriangleImgTransform", "transform: source.width :" + source.getWidth() + " height:" + source.getHeight());
-        Bitmap bp2 = getShardImage(bitmap_bg, bp);
-        source.recycle();
-        return bp2;
-    }
-
-    @Override
-    public String key() {
-        return "TriangleImgTransform";
-    }
+//    @Override
+//    public Bitmap transform(Bitmap source) {
+//        Bitmap bitmap_bg = BitmapFactory.decodeResource(CoreApplication.getInstance().getResources(), R.drawable.bg_dialog_a);
+//        final Bitmap bp = getRoundCornerImage(bitmap_bg, source);
+//        Log.d("TriangleImgTransform", "transform: source.width :" + source.getWidth() + " height:" + source.getHeight());
+//        Bitmap bp2 = getShardImage(bitmap_bg, bp);
+//        source.recycle();
+//        return bp2;
+//    }
+//
+//    @Override
+//    public String key() {
+//        return "TriangleImgTransform";
+//    }
 }

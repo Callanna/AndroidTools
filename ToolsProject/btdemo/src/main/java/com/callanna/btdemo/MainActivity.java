@@ -1,9 +1,11 @@
 package com.callanna.btdemo;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.kyleduo.switchbutton.SwitchButton;
 

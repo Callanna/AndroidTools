@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifidemo/ToolsProject-wifidemo.iml" filepath="$PROJECT_DIR$/.idea/modules/wifidemo/ToolsProject-wifidemo.iml" group="ToolsProject/wifidemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifilibrary/ToolsProject-wifilibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/wifilibrary/ToolsProject-wifilibrary.iml" group="ToolsProject/wifilibrary" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app2/app2.iml" filepath="$PROJECT_DIR$/.idea/modules/app2/app2.iml" group="ToolsProject/app2" />
       <module fileurl="file://$PROJECT_DIR$/blueutillibrary/blueutillibrary.iml" filepath="$PROJECT_DIR$/blueutillibrary/blueutillibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/btcontrol/btcontrol.iml" filepath="$PROJECT_DIR$/btcontrol/btcontrol.iml" />
       <module fileurl="file://$PROJECT_DIR$/btdemo/btdemo.iml" filepath="$PROJECT_DIR$/btdemo/btdemo.iml" />

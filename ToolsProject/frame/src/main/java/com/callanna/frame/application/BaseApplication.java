@@ -21,7 +21,7 @@ public abstract class BaseApplication extends Application implements CrashFileSa
          * 设置默认异常处理Handler
          */
 
-        crashHandler = CrashHandler.getInstance(this);
+        crashHandler = CrashHandler.getInstance();
         crashHandler.init(getApplicationContext());
         onBaseCreate();
     }

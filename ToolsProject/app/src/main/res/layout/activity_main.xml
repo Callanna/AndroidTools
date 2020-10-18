@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.callanna.androidtools.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_below="@+id/editmsg"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="发送">
 
-</android.support.constraint.ConstraintLayout>
+    </Button>
+
+    <EditText
+        android:id="@+id/editmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:focusable="true"
+        android:textSize="22sp"
+        android:hint="请输入"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:maxLines="2">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_send"
+        android:textSize="22sp"
+        android:text="form server msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</RelativeLayout>
