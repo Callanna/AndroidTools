@@ -1,0 +1,61 @@
+ext {
+    android {
+        compileSdkVersion 29
+
+        defaultConfig {
+            minSdkVersion 24
+            targetSdkVersion 29
+
+//            testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        }
+
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+
+            //测试混淆版本
+            osspconfuse {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+            uncheckDevice {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+        }
+
+        defaultConfig {
+            javaCompileOptions {
+                annotationProcessorOptions {
+                    arguments = [AROUTER_MODULE_NAME: project.getName()]
+                }
+            }
+
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
+
+            vectorDrawables {
+                useSupportLibrary true
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        lintOptions {
+            abortOnError false
+        }
+    }
+
+    dependencies {
+        //################使用注解的方式使用SharePreferences##########
+//        implementation 'com.baoyz.treasure:treasure:0.7.4'
+//        annotationProcessor 'com.baoyz.treasure:treasure-compiler:0.7.4'
+    }
+}

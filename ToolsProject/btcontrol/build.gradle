@@ -1,16 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 29
+    buildToolsVersion "28.0.3"
 //    compileOptions {
 //        sourceCompatibility JavaVersion.VERSION_1_8
 //        targetCompatibility JavaVersion.VERSION_1_8
 //    }
     defaultConfig {
         applicationId "com.ebanswers.yitian.btcontrol"
-        minSdkVersion 17
-        targetSdkVersion 25
+        minSdkVersion 24
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -23,10 +23,10 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.squareup.okhttp3:okhttp:3.2.0'
-    compile 'com.ebanswers:sdk-core:2.0.4'
+//    implementation 'com.android.support:appcompat-v7:25.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.ebanswers:sdk-core:2.0.4'
     //    compile 'com.akexorcist:bluetoothspp:1.0.0'
-    compile files('libs/eventbus.jar')
-    compile project(':blueutillibrary')
+    implementation files('libs/eventbus.jar')
+    implementation project(':blueutillibrary')
 }

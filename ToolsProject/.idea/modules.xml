@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidTools-ToolsProject.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidTools-ToolsProject.iml" group="ToolsProject" />
       <module fileurl="file://$PROJECT_DIR$/ToolsProject.iml" filepath="$PROJECT_DIR$/ToolsProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ToolsProject-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ToolsProject-app.iml" group="ToolsProject/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blueutillibrary/ToolsProject-blueutillibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/blueutillibrary/ToolsProject-blueutillibrary.iml" group="ToolsProject/blueutillibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btcontrol/ToolsProject-btcontrol.iml" filepath="$PROJECT_DIR$/.idea/modules/btcontrol/ToolsProject-btcontrol.iml" group="ToolsProject/btcontrol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btdemo/ToolsProject-btdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/btdemo/ToolsProject-btdemo.iml" group="ToolsProject/btdemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cleandemo/ToolsProject-cleandemo.iml" filepath="$PROJECT_DIR$/.idea/modules/cleandemo/ToolsProject-cleandemo.iml" group="ToolsProject/cleandemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cleantool/ToolsProject-cleantool.iml" filepath="$PROJECT_DIR$/.idea/modules/cleantool/ToolsProject-cleantool.iml" group="ToolsProject/cleantool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frame/ToolsProject-frame.iml" filepath="$PROJECT_DIR$/.idea/modules/frame/ToolsProject-frame.iml" group="ToolsProject/frame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logcat/ToolsProject-logcat.iml" filepath="$PROJECT_DIR$/.idea/modules/logcat/ToolsProject-logcat.iml" group="ToolsProject/logcat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unstallapp/ToolsProject-unstallapp.iml" filepath="$PROJECT_DIR$/.idea/modules/unstallapp/ToolsProject-unstallapp.iml" group="ToolsProject/unstallapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifidemo/ToolsProject-wifidemo.iml" filepath="$PROJECT_DIR$/.idea/modules/wifidemo/ToolsProject-wifidemo.iml" group="ToolsProject/wifidemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifilibrary/ToolsProject-wifilibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/wifilibrary/ToolsProject-wifilibrary.iml" group="ToolsProject/wifilibrary" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/blueutillibrary/blueutillibrary.iml" filepath="$PROJECT_DIR$/blueutillibrary/blueutillibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/btcontrol/btcontrol.iml" filepath="$PROJECT_DIR$/btcontrol/btcontrol.iml" />

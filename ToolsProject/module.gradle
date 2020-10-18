@@ -1,0 +1,11 @@
+ext {
+    android {
+        libraryVariants.all { variant ->
+            variant.outputs.all {
+                if (outputFileName.endsWith('.aar')) {
+                    outputFileName = "${project.name}-${defaultConfig.versionName}-${variant.buildType.name}.aar"
+                }
+            }
+        }
+    }
+}
